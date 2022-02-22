@@ -1,0 +1,41 @@
+div{
+    .category-item {
+      border: 2px solid $color_fondo;
+      box-sizing: border-box;
+      height: 350px;
+      background-size: cover;
+      background-position: center;
+      background-color: $color_witec;
+      color: grey;
+      .category-item-inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        & div {
+          padding: 5px 10px;
+          background: $color_fondo;
+          color: $color_texto;
+          border-radius: 5px;
+          font-size: 30px;
+          font-weight: bold;
+          text-transform: uppercase;
+          transition: all 0.5s;
+          &:hover {
+            color: $color_witec;
+          } 
+        }
+      }
+    }
+  }
+  
+  .btn{
+  &:hover {
+      color: $color_witec;
+      background-color: $color_fondo;
+    }
+  }
+  
+  body{
+    background-color: $color_fondo;
+  }

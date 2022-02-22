@@ -1,0 +1,17 @@
+.preguntas_frecuentes{
+      div{
+        background-color: $color_fondo;
+        color: $color_texto;
+        .accordion-header{
+            background-color: $color_fondo;
+        }     
+        button{
+            background-color: $color_fondo;
+            color: $color_texto;
+        &:hover{
+            background-color: grey;
+        }
+
+    }   
+}
+}

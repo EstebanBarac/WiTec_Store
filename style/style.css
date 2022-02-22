@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  background-color: #24252A;
+}
+
+nav .navbar {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+nav .navbar:hover .navbar-brand {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+nav .navbar:hover .navbar-brand:hover {
+  padding-left: 15px;
+}
+
+.nav-link {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.nav-link h5 {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.nav-link h5:hover {
+  color: #6e40c9;
+}
+
+div .category-item {
+  border: 2px solid #24252A;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-color: #6e40c9;
+  color: grey;
+}
+
+div .category-item .category-item-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+div .category-item .category-item-inner div {
+  padding: 5px 10px;
+  background: #24252A;
+  color: white;
+  border-radius: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+div .category-item .category-item-inner div:hover {
+  color: #6e40c9;
+}
+
+.btn:hover {
+  color: #6e40c9;
+  background-color: #24252A;
+}
+
+body {
+  background-color: #24252A;
+}
+
+body {
+  height: 100%;
+  background: #24252A;
+}
+
+body .global-container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+body .global-container form {
+  padding-top: 10px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+body .global-container form .login-form {
+  width: 380px;
+  height: 450px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+body .global-container form .card-title {
+  font-weight: 900px;
+  padding-top: 20px;
+}
+
+body .global-container form .btn {
+  background: #6e40c9;
+  font-size: 14px;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+  border-radius: 10px;
+}
+
+body .global-container form input[type="email"],
+body .global-container form input[type="password"] {
+  background: #24252A;
+  border: 2px solid #6e40c9;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+body .global-container form input[type="email"]:focus,
+body .global-container form input[type="password"]:focus {
+  outline: none;
+  border: none;
+  background: #24252A;
+  color: white;
+}
+
+.preguntas_frecuentes div {
+  background-color: #24252A;
+  color: white;
+}
+
+.preguntas_frecuentes div .accordion-header {
+  background-color: #24252A;
+}
+
+.preguntas_frecuentes div button {
+  background-color: #24252A;
+  color: white;
+}
+
+.preguntas_frecuentes div button:hover {
+  background-color: grey;
+}
+/*# sourceMappingURL=style.css.map */
